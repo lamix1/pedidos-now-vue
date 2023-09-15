@@ -1,29 +1,31 @@
 <template>
+    <section class="vh-100" style="padding-top: 100px">
     <div class="login">
         <h1>Login</h1>
-        <input type="text" placeholder="Email">
-        <br>
-        <input type="password" placeholder="Senha">
-        <br>
-        <div class="btn-login">
-            <button>Login</button>
+    <form>
+        <div class="form-outline mb-3">
+            <input
+            type="email"
+            id="form3Example3"
+            class="form-control form-control-lg"
+            placeholder="Entrar com um email" 
+            />
+            <label class="form-label" for="form3Example3">Email </label>
         </div>
-        <p>
-            Esqueci minha Senha
-            <a href="">Recuperar senha</a>
-        </p>
+
+        <div class="form-outline mb-3">
+            <input
+            type="password"
+            id="form3Example4"
+            class="form-control form-control-lg"
+            placeholder="Entrar com sua senha" 
+            />
+            <label class="form-label" for="form3Example4">Senha </label>
+        </div>
+    </form>
     </div>
+</section>
 </template>
+<style>
 
-<script>
-export default {
-    name: "login",
-    data() {
-        return {};
-    },
-    methods: {}
-};
-</script>
-
-<style scoped>
 </style>

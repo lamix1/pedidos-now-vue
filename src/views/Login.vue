@@ -1,31 +1,50 @@
 <template>
-    <section class="vh-100" style="padding-top: 100px">
-    <div class="login">
-        <h1>Login</h1>
+    <div class="container-fluid">
+        <div class="row bac">
+      <div class="col-12">
+            
+    <div class="card-body">
     <form>
-        <div class="form-outline mb-3">
-            <input
-            type="email"
-            id="form3Example3"
-            class="form-control form-control-lg"
-            placeholder="Entrar com um email" 
-            />
-            <label class="form-label" for="form3Example3">Email </label>
-        </div>
+        <div class="card" style="width: 18rem;">
+ 
+    <h5 class="card-title">Login</h5>
+    <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Senha</label>
+  <input type="password" class="form-control" id="exampleFormControlInput1" >
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">Lembrar de mim</label>
+  </div>
+  <router-link to="/Home.vue" custom v-slot="{ navigate }">
+  <button
+  @click="navigate"
+  role="link" 
+  type="button" 
+  class="btn btn-primary btn-lg"
+  style="
 
-        <div class="form-outline mb-3">
-            <input
-            type="password"
-            id="form3Example4"
-            class="form-control form-control-lg"
-            placeholder="Entrar com sua senha" 
-            />
-            <label class="form-label" for="form3Example4">Senha </label>
-        </div>
+  "
+  >
+  Login
+</button>
+</router-link>
+</div>
     </form>
     </div>
-</section>
+</div>
+</div>
+</div>
 </template>
 <style>
+.bac {
+    background: url('../assets/Login.png') no-repeat center center fixed;
+    height: 100vh;
+  }
+
 
 </style>

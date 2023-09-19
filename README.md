@@ -1,35 +1,28 @@
-# pedidos-now-vue3
+# Pedidos Now
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Desenvolvimento de um app para que os garçons dos restaurantes realizem os pedidos em mesa.
 
-## Customize configuration
+## Desenvolvedoras
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/luizatorrens">
+        <img src="luiza.jpg" width="100px;"/><br>
+        <sub>
+          <b>Luiza Torrens</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lamix1">
+        <img src="camila.jpg" width="100px;"/><br>
+        <sub>
+          <b>Camila Cristina dos Santos</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>

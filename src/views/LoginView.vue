@@ -19,7 +19,7 @@
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
           <label class="form-check-label" for="flexCheckDefault">Lembrar de mim</label>
         </div>
-        <router-link to="/Home.vue" custom v-slot="{ navigate }">
+        <router-link to="/home" custom v-slot="{ navigate }">
           <button
             @click="navigate"
             role="link"

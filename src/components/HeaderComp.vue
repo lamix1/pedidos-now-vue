@@ -1,18 +1,14 @@
 <template>
     <header class="menu-superior">
-      <div class="menu-esquerdo">
-        <span> <RouterLink to="/pedidosAbertos">Pedidos Abertos</RouterLink> </span>
-        <span>|</span>
-        <span> <RouterLink to="/historicoPedidos">Histórico de Pedidos</RouterLink> </span>
-        <span>|</span>
-        <span> <RouterLink to="/editarCardapio">Editar Cardápio</RouterLink> </span>
-        <span>|</span>
-        <span> <RouterLink to="/funcionarios">Controle de Funcionários</RouterLink> </span>
-      </div>
-      <div class="menu-direito">
-        <span>Sair</span>
-      </div>
+        <a> <RouterLink to="/pedidosAbertos">Pedidos Abertos</RouterLink> </a>
+        <a>|</a>
+        <a> <RouterLink to="/historicoPedidos">Histórico de Pedidos</RouterLink> </a>
+        <a>|</a>
+        <a> <RouterLink to="/editarCardapio">Editar Cardápio</RouterLink> </a>
+        <a>|</a>
+        <a> <RouterLink to="/funcionarios">Controle de Funcionários</RouterLink> </a>
     </header>
+    <hr size="10" width="100%">
   </template>
   
   <style>
@@ -22,6 +18,11 @@
   .menu-superior {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    color: black;
+  }
+  a {
+    color: black;
+    margin: 20px;
   }
   </style>

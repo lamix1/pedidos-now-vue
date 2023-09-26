@@ -1,7 +1,7 @@
 <template >
   <div class="background h-100 w-100 d-flex justify-content-center align-items-center">
-      <div class="card">
-        <img src="../assets/PedidosNOW.png" class="card-img-top " />
+      <div class="card d-flex justify-content-center align-items-center p-4">
+        <img src="../assets/PedidosNOW.png" class="card-img-top d-flex justify-content-center align-items-center" />
         <div class="mb-3 input">
           <label for="exampleFormControlInput1" class="form-label"></label>
           <input
@@ -24,7 +24,7 @@
             @click="navigate"
             role="link"
             type="button"
-            class="btn btn-danger btn-lg"
+            class="btn btn-danger btn-lg mt-3"
           >
             Login
           </button>
@@ -42,19 +42,13 @@
 
 .card {
   width: 25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .input {
   width: 90%;
 }
 
-.card-img-top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card-img-top { 
   width: 300px;
 }
 </style>

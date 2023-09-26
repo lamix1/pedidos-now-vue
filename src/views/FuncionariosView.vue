@@ -1,0 +1,1 @@
+<template>Controle de Funcionarios</template>

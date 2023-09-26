@@ -9,6 +9,7 @@
           <th scope="col">MESA</th>
           <th scope="col">PEDIDO</th>
           <th scope="col">TOTAL</th>
+          <th scope="col">SITUAÇÃO</th>
         </tr>
       </thead>
       <tbody>
@@ -18,6 +19,7 @@
           <td>2</td>
           <td>Porção de Batata Frita</td>
           <td>$25</td>
+          <td> <input class="form-check-input" type="checkbox"> </td>
         </tr>
         <tr>
           <th scope="row">2</th>
@@ -25,6 +27,7 @@
           <td>5</td>
           <td>Chawarma de Frango com Requeijão</td>
           <td>$28</td>
+          <td> <input class="form-check-input" type="checkbox"> </td>
         </tr>
         <tr>
           <th scope="row">3</th>
@@ -32,7 +35,7 @@
           <td>3</td>
           <td>Chapeado de 500G</td>
           <td>45$</td>
-  
+          <td> <input class="form-check-input" type="checkbox"> </td>
         </tr>
       </tbody>
     </table>

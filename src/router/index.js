@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import LoginView from "@/views/LoginView.vue";
 import PedidosAbertosView from "@/views/PedidosAbertosView.vue";
 import HistoricoPedView from "@/views/HistoricoPedView.vue";
-import CardapioView from "@/views/CardapioView.vue"
-import FuncionariosView from "@/views/FuncionariosView.vue"
+import AdcItensView from "@/views/AdcItensView.vue";
+import FuncionariosView from "@/views/FuncionariosView.vue";
+import CardapioView from "@/views/CardapioView.vue";
 
 import FullLayout from '@/layouts/FullLayout.vue'
 import BlankLayout from '@/layouts/BlankLayout.vue'
@@ -40,6 +41,11 @@ const router = createRouter({
           {
             path: '/editarCardapio',
             name: 'editarCardapio',
+            component: AdcItensView,
+          },
+          {
+            path: '/visuCardapio',
+            name: 'visuCardapio',
             component: CardapioView,
           },
           {

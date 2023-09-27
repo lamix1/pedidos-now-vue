@@ -6,6 +6,8 @@
         <a>|</a>
         <a> <RouterLink to="/editarCardapio">Editar Cardápio</RouterLink> </a>
         <a>|</a>
+        <a> <RouterLink to="visuCardapio">Visualizar Cardápio</RouterLink></a>
+        <a>|</a>
         <a> <RouterLink to="/funcionarios">Controle de Funcionários</RouterLink> </a>
     </header>
     <hr size="10" width="100%">

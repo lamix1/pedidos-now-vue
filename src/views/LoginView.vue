@@ -29,10 +29,16 @@
             Login
           </button>
         </router-link>
+
+        <svg-icon type="mdi" :path="path"></svg-icon>
+
       <!-- </div> -->
     </div>
   </div>
 </template>
+
+<!-- <script src="https://kit.fontawesome.com/6f724061eb.js" crossorigin="anonymous"></script> -->
+
 <style>
 
 .background {
@@ -42,9 +48,11 @@
 
 .card {
   width: 25rem;
+  height: 30rem;
 }
 
 .input {
+  
   width: 90%;
 }
 

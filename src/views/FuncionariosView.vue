@@ -4,7 +4,7 @@
       <legend class="mb-4">Adicionar novo funcionário</legend>
       <div class="mb-3">
         <input
-          type="email"
+          type="text"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
@@ -17,7 +17,7 @@
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
-          placeholder="Endereço de email"
+          placeholder="Email"
         />
       </div>
       <div class="mb-3">
@@ -25,7 +25,7 @@
           type="password"
           class="form-control"
           id="exampleInputPassword1"
-          placeholder="Login"
+          placeholder="Senha"
         />
       </div>
       <button type="submit" class="btn btn-primary">Adicionar</button>

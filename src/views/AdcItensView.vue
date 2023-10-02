@@ -8,10 +8,10 @@
           <input type="text" id="disabledTextInput" class="form-control" placeholder="Título" />
         </div>
         <div class="mb-3">
-          <input type="text" id="disabledTextInput" class="form-control" placeholder="Peso" />
+          <input type="number" id="disabledTextInput" class="form-control" placeholder="Peso" />
         </div>
         <div class="mb-3">
-          <input type="text" id="disabledTextInput" class="form-control" placeholder="Preço" />
+          <input type="number" id="disabledTextInput" class="form-control" placeholder="Preço" />
         </div>
         <div class="mb-3">
           <select class="form-select" aria-label="Default select example">

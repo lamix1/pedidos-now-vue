@@ -30,10 +30,12 @@
           </button>
         </router-link>
 
-        <svg-icon type="mdi" :path="path"></svg-icon>
-
+        <!-- <svg-icon type="mdi" :path="path"></svg-icon> -->
+        <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">New around here? Sign up</a>
+  <a class="dropdown-item" href="#">Forgot password?</a>
+</div>
       <!-- </div> -->
-    </div>
   </div>
 </template>
 
@@ -48,7 +50,7 @@
 
 .card {
   width: 25rem;
-  height: 30rem;
+  height: 35rem;
 }
 
 .input {

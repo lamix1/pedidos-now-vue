@@ -9,6 +9,12 @@
         <a> <RouterLink to="visuCardapio">Visualizar Cardápio</RouterLink></a>
         <a>|</a>
         <a> <RouterLink to="/funcionarios">Controle de Funcionários</RouterLink> </a>
+        <a>|</a>
+        <a> <RouterLink to="/bairros">Bairros</RouterLink> </a>
+        <a>|</a>
+        <a> <RouterLink to="/motoboys">Motoboys</RouterLink> </a>
+        <a>|</a>
+        <a> <RouterLink to="/entregas">Entregas</RouterLink> </a>
     </header>
     <hr size="10" width="100%">
   </template>

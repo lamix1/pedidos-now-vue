@@ -5,14 +5,20 @@
       <fieldset>
         <legend>Adicione itens</legend>
         <div class="mb-3">
-          <input type="text" id="disabledTextInput" class="form-control" placeholder="Título" />
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Nome" />
         </div>
-        <div class="mb-3">
-          <input type="number" id="disabledTextInput" class="form-control" placeholder="Peso" />
+
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+          <span class="input-group-text">g</span>
         </div>
-        <div class="mb-3">
-          <input type="number" id="disabledTextInput" class="form-control" placeholder="Preço" />
+
+        <div class="input-group mb-3">
+          <span class="input-group-text">$</span>
+          <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+          <span class="input-group-text">.00</span>
         </div>
+
         <div class="mb-3">
           <select class="form-select" aria-label="Default select example">
             <option selected disabled>Categoria</option>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container m-5">
+  <div class="container m-5 col-5">
     <p class="text-center fs-2">Editar Cardápio</p>
     <form>
       <fieldset>
